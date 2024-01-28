@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  
+}
+
+.sidebar {
+  background-color: black;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.header {
+  background-color: grey;
+  grid-column: 2 / 3;
+}
+
+.main {
+  background-color: red;
+  grid-column: 2 / 3;
+}
