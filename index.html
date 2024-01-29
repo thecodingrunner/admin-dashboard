@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
+
+
   <div class="sidebar">
     <div class="side1">
-      <div>
-        <img src="" alt="">
-        <h2>Dashboard</h2>
-      </div>
+        <img src="Images/view-dashboard.svg" alt="dashboard" class="dash">
+        <div><h2>Dashboard</h2></div>
     </div>
     <div class="side2">
       <ul>
@@ -60,11 +65,12 @@
     </div>
   </div>
 
+
   <div class="header">
     <div class="nav">
       <div class="search">
-        <img src="Images/magnify.svg" alt="search" id="search">
-        <input type="search">
+        <img src="Images/magnify.svg" alt="search" id="magnify">
+        <input type="search" id="search">
       </div>
       <div class="notifications">
         <img src="Images/bell-ring-outline.svg" alt="notifications">
@@ -73,22 +79,134 @@
       </div>
     </div>
     <div class="intro">
-      <div class="profile"></div>
-      <div class="buttons"></div>
+      <div class="profile">
+        <img src="Images/portrait-edit.png" alt="profile">
+        <div>
+          <p>Hi there,</p><h2>Finn Moffett</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="new">New</button>
+        <button id="upload">Upload</button>
+        <button id="share">Share</button>
+      </div>
     </div>
   </div>
+
+
+
   <div class="main">
-    <div class="articles">
-      <div class="article"></div>
-      <div class="article"></div>
-      <div class="article"></div>
-      <div class="article"></div>
-      <div class="article"></div>
-      <div class="article"></div>
+    <div class="articlecontainer">
+      <h2>Your Projects</h2>
+      <div class="articles">
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+        <div class="article">
+          <div class="text">
+            <h3>title</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repellat eaque optio totam vitae deleniti officiis quidem sunt maxime quia.</p>
+          </div>
+          <div class="icons">
+            <img src="Images/star-plus-outline.svg" alt="star">
+            <img src="Images/eye-plus-outline.svg" alt="eye">
+            <img src="Images/share-variant-outline.svg" alt="link">
+          </div>
+        </div>
+      </div>
     </div>
     <div class="other">
-      <div class="announcements"></div>
-      <div class="trending"></div>
+      <div class="announcementscontainer">
+        <h2>Announcements</h2>
+        <div class="announcements">
+          <div class="annmain">
+            <div class="annmain1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, similique.</div>
+            <div class="annmain2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, vitae?</div>
+            <div class="annmain3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, reprehenderit?</div>
+          </div>
+        </div>
+      </div>
+      <div class="trendingcontainer">
+        <h2>Trending</h2>
+        <div class="trending">
+          <div class="smallprof">
+            <img src="Images/portrait-edit.png" alt="profile">
+            <div>
+              <p>Hi there,</p><p>Finn Moffett</p>
+            </div>
+          </div>
+          <div class="smallprof">
+            <img src="Images/portrait-edit.png" alt="profile">
+            <div>
+              <p>Hi there,</p><p>Finn Moffett</p>
+            </div>
+          </div>
+          <div class="smallprof">
+            <img src="Images/portrait-edit.png" alt="profile">
+            <div>
+              <p>Hi there,</p><p>Finn Moffett</p>
+            </div>
+          </div>
+          <div class="smallprof">
+            <img src="Images/portrait-edit.png" alt="profile">
+            <div>
+              <p>Hi there,</p><p>Finn Moffett</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
